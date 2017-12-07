@@ -15,13 +15,13 @@
 
     <!-- Mobile Theme Colour -->
 
-    <meta name="theme-color" content="#8e2c33">
+    <meta name="theme-color" content="#48C1C0">
 
     <!-- Title and Description -->
 
-    <title></title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>Citrus Clean Housekeeping</title>
+    <meta name="description" content="Citrus Clean Housekeeping - Coming Soon">
+    <meta name="keywords" content="housekeeping, cleaning, cleaning services, windsor, windsor cleaning, windsor housekeeping">
 
     <!-- Favicons -->
 
@@ -29,11 +29,11 @@
 
     <!-- Open Graph -->
 
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Citrus Clean Housekeeping">
+    <meta property="og:description" content="Citrus Clean Housekeeping - Coming Soon">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
+    <meta property="og:url" content="citrusclean.co">
+    <meta property="og:site_name" content="Citrus Clean Housekeeping">
     <meta property="og:image" content="assets/img/og.jpg">
 
 
