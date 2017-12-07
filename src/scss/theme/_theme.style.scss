@@ -1,0 +1,82 @@
+/*
+|--------------------------------------------------------------------------
+| #THEME
+|--------------------------------------------------------------------------
+*/
+
+.landing {
+    background-color:$primary;
+    height:100vh;
+    width:100vw;
+
+    &__container {
+        flex-direction:column;
+        align-items:center;
+        padding-top:7rem;
+
+        @media screen and (max-width:1440px) {
+            padding-top:5rem;
+        }
+        
+        .logo {
+            img {
+                max-width:700px;
+
+                @media screen and (max-width:1440px) {
+                    max-width:500px;
+                }
+
+                @media screen and (max-width:32rem) {
+                    max-width:300px;
+                }
+            }
+        }
+
+        h1 {
+            color:white;
+            font-weight:800;
+            font-size:2.5rem;
+            text-align:center;
+
+            @media screen and (max-width:32rem) {
+                font-size:1.5rem;
+            }
+        }
+
+        .contact__container {
+            display:flex;
+            flex-direction:row;
+
+            @media screen and (max-width:32rem) {
+                flex-direction:column;
+            }
+
+            .contact-method {
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+                justify-content:center;
+                margin:0 1rem;
+
+                @media screen and (max-width:32rem) {
+                    margin-bottom:.5rem;
+                }
+
+                a {
+                    color:white;
+                    transition:all .2s ease;
+
+                    &:hover {
+                        color:$secondary;
+                    }
+                }
+
+                img {
+                    max-width:1.5rem;
+                    align-self:center;
+                    margin-right:.25rem;
+                }
+            }
+        }
+    }
+}
